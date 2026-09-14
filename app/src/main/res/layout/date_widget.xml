@@ -35,6 +35,14 @@
             android:textStyle="bold"
             android:textColor="#FFFFFFFF"
             android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/smallText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mone"
+            android:textSize="10sp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <!-- Font 2 -->
@@ -67,6 +75,14 @@
             android:textStyle="bold"
             android:textColor="#FFFFFFFF"
             android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/smallText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mone"
+            android:textSize="10sp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <!-- Font 3 -->
@@ -99,6 +115,13 @@
             android:textStyle="bold"
             android:textColor="#FFFFFFFF"
             android:includeFontPadding="false"/>
+        <TextView
+            android:id="@+id/smallText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mone"
+            android:textSize="10sp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <!-- Font 4 -->
@@ -131,6 +154,13 @@
             android:textStyle="bold"
             android:textColor="#FFFFFFFF"
             android:includeFontPadding="false"/>
+        <TextView
+            android:id="@+id/smallText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mone"
+            android:textSize="10sp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
     <!-- Font 5 -->
@@ -163,6 +193,14 @@
             android:textStyle="bold"
             android:textColor="#FFFFFFFF"
             android:includeFontPadding="false"/>
+
+        <TextView
+            android:id="@+id/smallText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mone"
+            android:textSize="10sp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </FrameLayout>

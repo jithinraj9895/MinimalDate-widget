@@ -30,6 +30,9 @@ class DateWidgetProvider : AppWidgetProvider() {
                         "sans-serif-smallcaps"
                 )
 
+        private val smallTexts =
+                arrayOf("urangunnille", "suprabatham", "kikkiduvey", "ezhich podey", "orma indo")
+
         fun updateAllWidgets(context: Context) {
 
             val manager = AppWidgetManager.getInstance(context)
@@ -63,6 +66,8 @@ class DateWidgetProvider : AppWidgetProvider() {
 
             val fontIndex = (currentHour / 5) % fonts.size
 
+            val smallText = smallTexts[fontIndex]
+
             // Hide all fonts
             views.setViewVisibility(R.id.font1, android.view.View.GONE)
             views.setViewVisibility(R.id.font2, android.view.View.GONE)
@@ -76,26 +81,31 @@ class DateWidgetProvider : AppWidgetProvider() {
                     views.setViewVisibility(R.id.font1, android.view.View.VISIBLE)
                     views.setTextViewText(R.id.dayText1, day)
                     views.setTextViewText(R.id.dateText1, date)
+                    views.setTextViewText(R.id.smallText1, smallText)
                 }
                 1 -> {
                     views.setViewVisibility(R.id.font2, android.view.View.VISIBLE)
                     views.setTextViewText(R.id.dayText2, day)
                     views.setTextViewText(R.id.dateText2, date)
+                    views.setTextViewText(R.id.smallText2, smallText)
                 }
                 2 -> {
                     views.setViewVisibility(R.id.font3, android.view.View.VISIBLE)
                     views.setTextViewText(R.id.dayText3, day)
                     views.setTextViewText(R.id.dateText3, date)
+                    views.setTextViewText(R.id.smallText3, smallText)
                 }
                 3 -> {
                     views.setViewVisibility(R.id.font4, android.view.View.VISIBLE)
                     views.setTextViewText(R.id.dayText4, day)
                     views.setTextViewText(R.id.dateText4, date)
+                    views.setTextViewText(R.id.smallText4, smallText)
                 }
                 4 -> {
                     views.setViewVisibility(R.id.font5, android.view.View.VISIBLE)
                     views.setTextViewText(R.id.dayText5, day)
                     views.setTextViewText(R.id.dateText5, date)
+                    views.setTextViewText(R.id.smallText5, smallText)
                 }
             }
 
