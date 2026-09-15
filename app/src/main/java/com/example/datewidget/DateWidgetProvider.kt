@@ -25,13 +25,13 @@ class DateWidgetProvider : AppWidgetProvider() {
                 arrayOf(
                         "sans-serif",
                         "serif",
-                        "sans-serif-condensed",
+                        "array",
                         "monospace",
                         "sans-serif-smallcaps"
                 )
 
         private val smallTexts =
-                arrayOf("urangunnille", "suprabatham", "kikkiduvey", "ezhich podey", "orma indo")
+                arrayOf("urangunnille", "suprabatham", "chaya kudicho", "ezhich podey", "orma indo")
 
         fun updateAllWidgets(context: Context) {
 
